@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; isse jis div me zyda scroll krne wale content honge sirf wahi scroll hoga */
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.side_bar {
+    width: 260px;
+    background-color: #263043;
+    /* box-shadow: 2px 2px 2px 2px black; */
+}
+
+.dash_board {
+    background-color: #1d2634;
+    flex: 1;
+    margin-top: 62px;
+    /*dusre div ko sirf utna hi space 
+    milega jitna content h usme baaki sara space dash_board ko milega*/
+
+}
+
+.search_bar {
+    background-color: #1d2634;
+    position: fixed; 
+    top: 0;
+    right: 0;
+    left: 260px;
+    height: 62px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+
+.side_bar .store {
+    background: transparent;
+}
+
+.store {
+    padding-left: 30px;
+    padding-top: 37px;
+    margin-bottom: 60px;
+    display: flex;
+}
+
+.store a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    font-weight: 700;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+
+.store a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.store i {
+    color: white;
+    padding-right: 5px;
+    background: transparent;
+    
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    margin-left: 30px;
+}
+
+.dashboard i {
+    background: transparent;
+    color: white;
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    padding-left: 5px;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.search_bar .search_icon i {
+    color: white;
+    background: transparent;
+    padding-left: 30px;
+}
+
+.search_bar .left_icons i {
+    color: white;
+    background: transparent;
+}
+
+.left_icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    background: transparent;
+}
+
+.left_icons .notification i {
+    padding: 5px;
+    background: transparent;
+}
+
+.left_icons .message_box i {
+    padding: 5px;
+    background: transparent;
+}
+
+.left_icons .user i {
+    padding: 5px;
+    background: transparent;
+}
+
+/* .fa-solid {
+    background: transparent;
+} */
+
+.search_icon {
+    background: transparent;
+}
+
+.notification {
+    background: transparent;
+}
+
+.message_box {
+    background: transparent;
+}
+
+.user {
+    background: transparent;
+}
+
+.dash_board h3 {
+    background: transparent;
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.allbox {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dash_board .box {
+    height: 130px;
+    width: 250px;
+    
+}
+
+.blue {
+    background-color: #2962ff;
+}
+
+.orange {
+    background-color:  #ff6d00;
+}
+
+.green {
+    background-color: #2e7d32;
+}
+
+.red {
+    background-color: #d50000;
+}
+
+.box {
+    border-radius: 15px;
+    transition: 0.4s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.box p {
+    background-color: transparent;
+    color: white;
+    padding-left: 15px;
+    padding-top: 25px;
+
+}
+
+.p {
+    background: transparent;
+    font-weight: 700;
+}
+
+
+
+.box h2 {
+    background: transparent;
+    color: white;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.graph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    background: transparent;
+}
+
+.graph .img1 img {
+    width: 530px;
+    height: 100%;
+    border: 2px solid #1d2634;
+
+}
+
+.graph .img2 img {
+    width: 530px;
+    height: 100%;
+    border: 2px solid #1d2634;
+}
+
+.dashboard .icon1 {
+    background: transparent;
+    color: white;
+}
+
+.material-icons {
+    /* color: white; */
+    background: transparent;
+}
+
+.products .icon2 {
+    background: transparent;
+    color: white;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    background: transparent;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+}
+
+.products a {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    padding-left: 5px;
+    
+}
+
+.m {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    background: transparent;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+}
+
+.m a {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    padding-left: 5px;
+    
+}
+
+.s {
+    background: transparent;
+    color: white;
+}
+
+.m a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.4s ease-in-out;
+}
+
+.m a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
